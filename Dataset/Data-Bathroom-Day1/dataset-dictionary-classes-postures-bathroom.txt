@@ -1,0 +1,12 @@
+box:
+9-deitado
+10-em pé
+pia:
+11-em pé
+privada:
+12-em pé com muita roupa
+13-em pé com pouca roupa
+14-sentado com muita roupa
+15-sentado com pouca roupa
+ninguém:
+16-none

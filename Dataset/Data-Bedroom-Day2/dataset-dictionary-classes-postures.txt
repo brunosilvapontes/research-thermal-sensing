@@ -1,0 +1,13 @@
+CAMA:
+1-deitado
+2-sentado
+3-deitado com cobertor
+
+CHÃO:
+4-sentado
+5-em pé
+6-deitado
+7-em pé com muita roupa
+
+NINGUÉM:
+8-none
