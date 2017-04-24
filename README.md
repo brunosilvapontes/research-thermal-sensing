@@ -6,7 +6,7 @@
   This paper addresses this challenge through the usage of a low resolution ther- mal sensor and machine learning techniques, discussing the feasibility of low cost and privacy protecting solutions. We evaluated decision tree models in two tasks of human-sensing, presence and posture recognition, using data of different days and volunteers. We also contribute by providing public domain datasets, collected in a bedroom and a bathroom, which are described in this paper.
   
 ## Keywords
-Household Monitoring, Human-Sensing, Machine Learning, Pri- vacy, Thermal Sensors, Low Resolution.
+Household Monitoring, Human-Sensing, Machine Learning, Privacy, Thermal Sensors, Low Resolution.
 
 # Repository
 ## Code-Arduino
