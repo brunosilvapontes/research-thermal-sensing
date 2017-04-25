@@ -19,4 +19,7 @@ This program communicates to the Arduino program, label each temperatures' matri
 The program developed in R reads the labeled text files, that contains the raw temperatures' matrix data from OMRON D6T-44L, pre processes it extracting some features, and outputs text files in order to generate/validate machine learning models. 
 
 ## Dataset
+Inside Dataset folder there are 8 folders from 7 different days of data collection. Each of these folders contains .csv files with the collected thermal data.
+
+## CSV file name structure
 Pending.
