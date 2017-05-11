@@ -21,5 +21,9 @@ The program developed in R reads the labeled text files, that contains the raw t
 ## Dataset
 Inside Dataset folder there are 8 folders from 7 different days of data collection. Each of these folders contains .csv files with the collected thermal data.
 
-## CSV file name structure
-Pending.
+The structure of folder names is Data-{Room}-Day{#}, where {Room} can be Bathroom or Bedroom, and {#} can be 1-7.
+
+Within each data folder contains the respective .csv files with the sensor data. The structure of file names is {Room}-Day{#}-{Volunteer}-{Posture}.csv. 
+
+
+
