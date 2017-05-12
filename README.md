@@ -21,9 +21,9 @@ The program developed in R reads the labeled text files, that contains the raw t
 ## Dataset
 Inside Dataset folder there are 8 folders from 7 different days of data collection. Each of these folders contains .csv files with the collected thermal data.
 
-The structure of folder names is Data-{Room}-Day{#}, where {Room} can be Bathroom or Bedroom, and {#} can be 1-7.
+The structure of folder names is Data-{Room}-Day{#}, where {Room} can be Bathroom or Bedroom and {#} can be 1-7.
 
-Within each data folder contains the respective .csv files with the sensor data. The structure of file names is {Room}-Day{#}-{Volunteer}-{Posture}.csv. 
+Within each data folder contains the respective .csv files with the sensor data. The structure of file names is {Room}-Day{#}-{Volunteer}-{Posture}.csv, where {Volunteer} can be A-E and {Posture} can be 1-16.  
 
-
+//TODO continuar explicando e retirar arquivos de dictionary
 
