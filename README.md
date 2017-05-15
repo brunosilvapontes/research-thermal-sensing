@@ -23,7 +23,14 @@ Inside Dataset folder there are 8 folders from 7 different days of data collecti
 
 The structure of folder names is Data-{Room}-Day{#}, where {Room} can be Bathroom or Bedroom and {#} can be 1-7.
 
-Within each data folder contains the respective .csv files with the sensor data. The structure of file names is {Room}-Day{#}-{Volunteer}-{Posture}.csv, where {Volunteer} can be A-E and {Posture} can be 1-16.  
+Within each data folder contains the respective .csv files with the sensor data. The structure of file names is {Room}-Day{#}-{Volunteer}-{Posture}.csv, where {Volunteer} can be A-E and {Posture} can be 1-16. Postures 1-8 were performed in the bedroom and postures 9-16 in the bathroom. The postures are:
+1: Lying on the bed 
+2: Sitting on the bed
+3: Lying on the bed using blanket
+4: Sitting on the floor
+5: Standing
+6: Lying on the floor
+7: Standing wearing winter clothes
+8: None (No volunteer in the sensor field of view)
 
-//TODO continuar explicando e retirar arquivos de dictionary
 
