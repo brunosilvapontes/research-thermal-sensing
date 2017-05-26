@@ -32,5 +32,13 @@ Within each data folder contains the respective .csv files with the sensor data.
 6: Lying on the floor;
 7: Standing wearing winter clothes;
 8: None (No volunteer in the sensor field of view);
+9: Lying in the shower box;
+10: Standing in the shower box;
+11: Standing in front of the sink;
+12: Standing in front of the toilet wearing winter clothes;
+13: Standing in front of the toilet;
+14: Sitting on the toilet wearing winter clothes;
+15: Sitting on the toilet;
+16: None (No volunteer in the sensor field of view);
 
 
