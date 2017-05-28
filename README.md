@@ -41,4 +41,7 @@ Within each data folder contains the respective .csv files with the sensor data.
 15: Sitting on the toilet;
 16: None (No volunteer in the sensor field of view);
 
-
+The column headers of the .csv files are: TPTAT, T1, T2, ..., T16, CheckPEC, Delta t from last measure in Miliseconds and Time Stamp. 
+TPTAT = Ambient temperature measured from the thermal sensor.
+Tn = The sixteen sensor field of view temperatures.
+CheckPEC = 
