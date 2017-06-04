@@ -44,4 +44,6 @@ Within each data folder contains the respective .csv files with the sensor data.
 The column headers of the .csv files are: TPTAT, T1, T2, ..., T16, CheckPEC, Delta t from last measure in Miliseconds and Time Stamp. 
 TPTAT = Ambient temperature measured from the thermal sensor.
 Tn = The sixteen sensor field of view temperatures.
-CheckPEC = 
+CheckPEC = This value can be 0-1 and indicates whether the data is reliable (1) or not (0). The sensor outputs 0 when a failure occur in a specific packet.
+Delta t from last measure in Miliseconds = Number of milliseconds that have passed after the last measurement.
+Time Stamp = Date and time of the measurement.
