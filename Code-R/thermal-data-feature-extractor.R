@@ -48,26 +48,24 @@ GetBedroomBackSub <- function(tptat){
 
 # It returns a list that contains all indexes that are neighbors (distance < 2)
 Get1Distance4x4MatrixIndexes <- function(matrixIndex){
-  indexes <- c()
+  if(matrixIndex == 1) return(c(2, 5, 6))
+  if(matrixIndex == 2) return(c(1, 3, 6, 7, 5))
+  if(matrixIndex == 3) return(c(2, 4, 6, 7, 8))
+  if(matrixIndex == 4) return(c(3, 7, 8))
+  if(matrixIndex == 5) return(c(2, 1, 6, 10, 9))
+  if(matrixIndex == 6) return(c(1, 2, 3, 5, 7, 9, 10, 11))
+  if(matrixIndex == 7) return(c(2, 3, 4, 6, 8, 10, 11, 12))
+  if(matrixIndex == 8) return(c(4, 3, 7, 11, 12))
+  if(matrixIndex == 9) return(c(5, 6, 10, 14, 13))
+  if(matrixIndex == 10) return(c(5, 6, 7, 9, 11, 13, 14, 15))
+  if(matrixIndex == 11) return(c(6, 7, 8, 10, 12, 14, 15, 16))
+  if(matrixIndex == 12) return(c(8, 7, 11, 15, 16)) 
+  if(matrixIndex == 13) return(c(9, 10, 14))
+  if(matrixIndex == 14) return(c(13, 9, 10, 11, 15))
+  if(matrixIndex == 15) return(c(14, 10, 11, 12, 16))
+  if(matrixIndex == 16) return(c(15, 11, 12))
   
-  if(matrixIndex == 1) indexes <- c(2, 5, 6) 
-  if(matrixIndex == 2) indexes <- c(1, 3, 6, 7, 5) 
-  if(matrixIndex == 3) indexes <- c(2, 4, 6, 7, 8) 
-  if(matrixIndex == 4) indexes <- c(3, 7, 8) 
-  if(matrixIndex == 5) indexes <- c(2, 1, 6, 10, 9) 
-  if(matrixIndex == 6) indexes <- c(1, 2, 3, 5, 7, 9, 10, 11) 
-  if(matrixIndex == 7) indexes <- c(2, 3, 4, 6, 8, 10, 11, 12) 
-  if(matrixIndex == 8) indexes <- c(4, 3, 7, 11, 12) 
-  if(matrixIndex == 9) indexes <- c(5, 6, 10, 14, 13) 
-  if(matrixIndex == 10) indexes <- c(5, 6, 7, 9, 11, 13, 14, 15) 
-  if(matrixIndex == 11) indexes <- c(6, 7, 8, 10, 12, 14, 15, 16) 
-  if(matrixIndex == 12) indexes <- c(8, 7, 11, 15, 16) 
-  if(matrixIndex == 13) indexes <- c(9, 10, 14) 
-  if(matrixIndex == 14) indexes <- c(13, 9, 10, 11, 15) 
-  if(matrixIndex == 15) indexes <- c(14, 10, 11, 12, 16)
-  if(matrixIndex == 16) indexes <- c(15, 11, 12)
-  
-  return(indexes)
+  return(c())
 }
 
 # Returns 1 if heatMatrixIndex in one of the bed matrix indexes and it returns 0 if not.
