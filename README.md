@@ -1,5 +1,5 @@
 # Thermal Sensing Data Classification Research
-  This repository contains the collected dataset, and developed source code in the research "Human-Sensing: Low Resolution Thermal Array Sensor Data Classification of Location-Based Postures", which will be published at the 5th International Conference on Distributed, Ambient and Pervasive Interactions. 
+  This repository contains the collected dataset, and developed source code in the research "Human-Sensing: Low Resolution Thermal Array Sensor Data Classification of Location-Based Postures", which is published at the 5th International Conference on Distributed, Ambient and Pervasive Interactions: https://link.springer.com/chapter/10.1007/978-3-319-58697-7_33 
 
 ## Abstract
   Ambient Assisted Living (AAL) applications aim to allow elderly, sick and disabled people to stay safely at home while collaboratively assisted by their family, friends and medical staff. AAL, recently empowered by the Internet of Things, introduces a new healthcare connectivity paradigm that interconnects mobile apps and sensors allowing constant monitoring of the patient. Preserving privacy in the course of recognition of postures and classification of activities is one of the challenges for human-sensing and a critical factor of user acceptance, so there is a demand for solutions that do not require real live imaging in AAL.
